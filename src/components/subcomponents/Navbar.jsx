@@ -37,8 +37,8 @@ export default function Navbar() {
             "path": "/contact"
         },
         {
-            "name": "Sign up",
-            "path": "/signup"
+            "name": "Login",
+            "path": "/login"
         }
     ]
 
@@ -75,8 +75,8 @@ export default function Navbar() {
                 </div>
 
 
-                <Link href={'/'}><FavoriteBorderIcon /></Link>
-                <Link href={'/'}><LocalMallOutlinedIcon /></Link>
+                <Link href={'/wishlist'}><FavoriteBorderIcon /></Link>
+                <Link href={'/cart'}><LocalMallOutlinedIcon /></Link>
 
 
             </div>
