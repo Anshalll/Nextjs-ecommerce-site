@@ -1,9 +1,11 @@
 'use client'
-import React, { useEffect, useState } from 'react';
+import React  from 'react';
 import { useTimer } from 'react-timer-hook';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Categoriestitle from '../Categoriestitle';
+import Cardgroup from './Cardgroup';
+
 export default function SalesComponent({ time }) {
 
     const {
@@ -16,7 +18,7 @@ export default function SalesComponent({ time }) {
     } = useTimer({ expiryTimestamp: time, onExpire: () => console.warn('onExpire called') });
 
     return (
-        <div className='w-[1500px] border-b-1 border-black flex flex-col gap-[40px] p-[20px] h-[600px] items-center justify-between'>
+        <div className='w-[1500px] flex flex-col gap-[40px] p-[20px] h-[600px] items-center justify-between'>
 
             <div className='w-full h-max flex items-center justify-between'>
 
@@ -62,42 +64,7 @@ export default function SalesComponent({ time }) {
                 </div>
             </div>
 
-            <div className='grid grid-cols-5 w-full justify-items-center'>
-
-
-                <div className='w-[200px] rounded-md h-[200px] bg-gray-200 relative'>
-
-                </div>
-
-
-                <div className='w-[200px] rounded-md h-[200px] bg-gray-200 relative'>
-
-                </div>
-
-
-                <div className='w-[200px] rounded-md h-[200px] bg-gray-200 relative'>
-
-                </div>
-
-
-                <div className='w-[200px] rounded-md h-[200px] bg-gray-200 relative'>
-
-                </div>
-
-
-                <div className='w-[200px] rounded-md h-[200px] bg-gray-200 relative'>
-
-                </div>
-
-
-
-
-
-            </div>
-
-            <div className='flex items-center justify-center'>
-                <button className='w-[200px] p-[10px] bg-[crimson] text-white rounded-md'>View all</button>
-            </div>
+       <Cardgroup/>
 
 
         </div>
