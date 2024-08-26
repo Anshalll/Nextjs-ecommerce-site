@@ -1,6 +1,8 @@
+
 import React from 'react'
-import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
+
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 export default function Cardgroup({ data }) {
     return (
@@ -19,7 +21,7 @@ export default function Cardgroup({ data }) {
                         </div>
                         <div className='absolute left-[85%]  items-center justify-center  flex flex-col gap-[20px] h-[100px]'>
                             <button className='p-[3px] bg-white rounded-full'><FavoriteBorderIcon /></button>
-                            <button className='p-[3px] bg-white rounded-full'><RemoveRedEyeIcon /></button>
+                            <button className='p-[3px] bg-white rounded-full'><ShoppingCartOutlinedIcon/></button>
                         </div>
 
                         <p className='text-[16px] font-semibold'>{value.name.length > 20 ? `${value.name.slice(0, 20)}...` : value.name}</p>

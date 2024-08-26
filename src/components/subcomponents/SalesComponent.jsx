@@ -4,9 +4,8 @@ import { useTimer } from 'react-timer-hook';
 import ArrowBackIcon from '@mui/icons-material/ArrowBack';
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 import Categoriestitle from '../Categoriestitle';
-import Cardgroup from './Cardgroup';
-import RemoveRedEyeIcon from '@mui/icons-material/RemoveRedEye';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import ShoppingCartOutlinedIcon from '@mui/icons-material/ShoppingCartOutlined';
 
 export default function SalesComponent({ time, data }) {
 
@@ -80,7 +79,8 @@ export default function SalesComponent({ time, data }) {
                         </div>
                         <div className='absolute left-[85%]  items-center justify-center  flex flex-col gap-[20px] h-[100px]'>
                             <button  className='p-[3px] bg-white rounded-full'><FavoriteBorderIcon/></button>
-                            <button  className='p-[3px] bg-white rounded-full'><RemoveRedEyeIcon/></button>
+                            <button className='p-[3px] bg-white rounded-full'><ShoppingCartOutlinedIcon/></button>
+
                         </div>
                         <div className='w-[50px] top-[10px] left-[10px] absolute h-[20px] flex items-center justify-center rounded-md text-white bg-[crimson]'>
                         <p>-{value.discountpercent}%</p>

@@ -13,12 +13,14 @@ import Frame2 from '@/assets/images/Frame768.png'
 import Producdata from '@/data.json'
 import Data from '@/data.json'
 
+
 export default function Home() {
   const time = new Date();
   time.setSeconds(time.getSeconds() + 24 * 60 * 60 * 3);
 
   return (
     <div className='w-full flex-col gap-[60px] flex items-center text-[13px]'>
+      
       <CarousalComponent />
 
       <SalesComponent time={time} data={Producdata}/>
