@@ -10,8 +10,8 @@ import Homemainpng from '@/assets/images/homemain.png'
 import Image from 'next/image';
 import Frame1 from '@/assets/images/Frame645.png'
 import Frame2 from '@/assets/images/Frame768.png'
-
-
+import Producdata from '@/data.json'
+import Data from '@/data.json'
 
 export default function Home() {
   const time = new Date();
@@ -21,7 +21,7 @@ export default function Home() {
     <div className='w-full flex-col gap-[60px] flex items-center text-[13px]'>
       <CarousalComponent />
 
-      <SalesComponent time={time} />
+      <SalesComponent time={time} data={Producdata}/>
       <hr className='w-full h-[10px]'/>
       <Browsecategories />
       <div className='w-[1500px]  flex flex-col gap-[40px] p-[20px] h-[600px] items-center justify-between'>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
         </div>
 
-        <Cardgroup />
+        <Cardgroup data={Data.bestseller}/>
 
 
       </div>
@@ -72,7 +72,7 @@ export default function Home() {
           </div>
         </div>
 
-        <Cardgroup />
+        <Cardgroup data={Data.Categories} />
 
 
       </div>
@@ -80,7 +80,8 @@ export default function Home() {
       <hr className='w-full h-[10px]'/>
       <div className='w-full flex flex-col gap-[20px]'>
         <Categoriestitle text={'Featured'} />
-        <h1 className=' tracking-wider font-bold text-[30px]'>Explore our products</h1>
+        <h1 className=' tracking-wider font-bold text-[30px]'>New Arrivals</h1>
+
       <div className='w-full flex items-center justify-center p-[40px]'>
 
         <div className='w-[1170px] flex gap-[20px] items-center'>

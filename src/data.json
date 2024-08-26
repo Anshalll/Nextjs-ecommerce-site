@@ -1,0 +1,327 @@
+
+    {
+        "sales": [
+            {
+                "name": "Gaming mouse",
+                "price": "2999",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "10",
+                "starating": "1",
+                "main_img": "https://m.media-amazon.com/images/I/61QY3V6A-NL.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71Khn6ii6+L._SX569_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71Nr+OWr4iL._SL1500_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81IBlQyTj3L._SL1500_.jpg",
+                "discountprice": "2700",
+                "discountpercent": "10",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+
+            {
+                "name": "Redragon K630 Dragonborn 60% Wired Pink Single Lighting Gaming Keyboard",
+                "price": "1800",
+                "sales": true,
+                "description": "60% Layout In Wired: Redragon 60% design in wired only mode due to popular demand. 61 anti-ghosting keys for ultra-compact and minimalistic design. Frees up precious desk space for less clutter.",
+                "reviews": "1850",
+                "starating": "5",
+                "main_img": "https://m.media-amazon.com/images/I/619t8CVd03L._SL1500_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71AAqWwUiJL._SL1500_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/61LIkyZHFJL._SL1500_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/51DynUQlofL._SL1500_.jpg",
+                "discountprice": "1700",
+                "discountpercent": "9",
+                "delivercharge": true,
+                "deliverychargeamount": "50",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+
+
+            {
+                "name": "Acer EK220Q 21.5 Inch (54.61 cm) Full HD (1920x1080) Pixels VA Panel LCD Monitor with LED Back Light",
+                "price": "7699",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "2790",
+                "starating": "4.6",
+                "main_img": "https://m.media-amazon.com/images/I/81xHjVQPwAL._SL1500_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/81ejM-ndGvL._SL1500_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71ERxdjesAL._SL1500_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81xr6sOFexL._SL1500_.jpg",
+                "discountprice": "5199",
+                "discountpercent": "32",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+
+
+            {
+                "name": "Redmi 13 5g Black Diamond 6GB 128GB",
+                "price": "13999",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "650",
+                "starating": "5",
+                "main_img": "https://m.media-amazon.com/images/I/81ndCd07RuL._SL1500_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/81EiZcihd6L._SL1500_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71szqdh2+DL._SL1500_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/71+hHWjEhyL._SL1500_.jpg",
+                "discountprice": "1299",
+                "discountpercent": "12",
+                "delivercharge": true,
+                "deliverychargeamount": "50",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+
+
+            },
+
+            {
+                "name": "Srhythm NC35 Noise Cancelling Headphones Wireless Bluetooth 5.3, Fast Charge Over-Ear Lightweight Headset with Microphones, Mega Bass 50+ Hours’ Playtime Black",
+                "price": "10999",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "5555",
+                "starating": "5",
+                
+                "main_img": "https://m.media-amazon.com/images/I/61iHF5MKsXL._SL1500_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/717QwEFA7+L._SL1500_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71V2WsS7AyL._SL1500_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/71LpFmcE78L._SL1500_.jpg",
+                "discountprice": "8,549",
+                "discountpercent": "22",
+                "delivercharge": true,
+                "deliverychargeamount": "50",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            }
+        ],
+
+        "bestseller": [
+            {
+                "name": "MIA FASHION Men's Bomber Jacket, Lightweight Transition Jacket, Aviator Jackets, Spring, Autumn Blouson with Pockets",
+                "price": "3799",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/61SD6NfzdpL._SX679_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "899",
+                "discountpercent": "78",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+
+            {
+                "name": "FLYING BERRY Women's Handbag…",
+                "price": "5500",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/91L45dcqJDL._SX675_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "2595",
+                "discountpercent": "53",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+
+            {
+                "name": "FLYING BERRY Women's Handbag…",
+                "price": "4899",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/614VnDOQaaL._SL1200_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "1599",
+                "discountpercent": "53",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+
+            {
+                "name": "FLYING BERRY Women's Handbag…",
+                "price": "4899",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/614VnDOQaaL._SL1200_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "1599",
+                "discountpercent": "53",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+            {
+                "name": "FLYING BERRY Women's Handbag…",
+                "price": "4899",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/614VnDOQaaL._SL1200_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "1599",
+                "discountpercent": "53",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            }
+        ],
+
+
+        "Categories": [
+            {
+                "name": "MIA FASHION Men's Bomber Jacket, Lightweight Transition Jacket, Aviator Jackets, Spring, Autumn Blouson with Pockets",
+                "price": "3799",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/61SD6NfzdpL._SX679_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "899",
+                "discountpercent": "78",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+
+            {
+                "name": "FLYING BERRY Women's Handbag…",
+                "price": "5500",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/91L45dcqJDL._SX675_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "2595",
+                "discountpercent": "53",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+
+            {
+                "name": "FLYING BERRY Women's Handbag…",
+                "price": "4899",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/614VnDOQaaL._SL1200_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "1599",
+                "discountpercent": "53",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+
+            {
+                "name": "FLYING BERRY Women's Handbag…",
+                "price": "4899",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/614VnDOQaaL._SL1200_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "1599",
+                "discountpercent": "53",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            },
+            {
+                "name": "FLYING BERRY Women's Handbag…",
+                "price": "4899",
+                "sales": true,
+                "description": "best gaming mouse",
+                "reviews": "14",
+                "starating": "2.7",
+                "main_img": "https://m.media-amazon.com/images/I/614VnDOQaaL._SL1200_.jpg",
+                "samepleimg1": "https://m.media-amazon.com/images/I/71POt5c7NdL._SY741_.jpg",
+                "samepleimg2": "https://m.media-amazon.com/images/I/71nIc54LcML._SX679_.jpg",
+                "samepleimg3": "https://m.media-amazon.com/images/I/81YTHd-DGXL._SY741_.jpg",
+                "discountprice": "1599",
+                "discountpercent": "53",
+                "delivercharge": true,
+                "deliverychargeamount": "40",
+                "paymentoptions": [
+                    "online",
+                    "cashondeliver"
+                ]
+            }
+        ]
+    }

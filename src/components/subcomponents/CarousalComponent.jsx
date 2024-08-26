@@ -2,7 +2,7 @@
 
 import React, { useEffect, useState } from 'react'
 import {motion} from 'framer-motion'
-
+import Link from 'next/link'
 
 export default function CarousalComponent() {
     const [CarouselImages, setCarouselImages] = useState([])
@@ -55,7 +55,7 @@ export default function CarousalComponent() {
         <div className='text-[13px] w-[1500px] gap-[20px] h-max flex p-[20px]'>
             <div className='flex flex-col gap-[20px] h-max w-[20%] border-r-1 border-black'>
                 {ProductCategories.map((value, index) => (
-                    <p key={index}>{value}</p>
+                    <Link href={'/'} className='hover:text-[crimson]'  key={index}>{value}</Link>
                 ))}
             </div>
             <div className='w-[80%] h-[350px] relative  '>
