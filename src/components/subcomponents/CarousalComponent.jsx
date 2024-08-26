@@ -38,7 +38,7 @@ export default function CarousalComponent() {
             function UpdateCarousel() {
                 setActiveSlide((prev) => {
                     const main =  (prev + 1) % CarouselImages.length
-                    console.log(main);
+                    
                     return main
                 })
     
@@ -66,7 +66,7 @@ export default function CarousalComponent() {
                         {CarouselImages.map((value, index) => (
                             <div key={index} className={`min-w-full ${index === ActiveSlide? "block": "hidden"}`}>
 
-                                <motion.img animate={index === ActiveSlide? {x: [300, 0]}: {x: 0} } src={value} alt="" className='w-full h-full object-cover object-center' />
+                                <motion.img animate={index === ActiveSlide? {x: [300, 0]}: {x: 0} } src={value} alt="loading" className='w-full h-full object-cover object-center' />
                             </div>
                         ))}
                     </div>

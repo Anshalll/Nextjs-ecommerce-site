@@ -25,7 +25,7 @@ export default function page() {
                 </div>
                 <div className='w-[40%] flex items-center justify-center'>
                     <div className='w-[300px] h-[300px]'>
-                        <Image src={AboutImage} className='w-full h-full object-contain' />
+                        <Image alt='loading' src={AboutImage} className='w-full h-full object-contain' />
                     </div>
                 </div>
             </div>
@@ -100,7 +100,7 @@ export default function page() {
                 <div className='w-[300px] h-max flex flex-col gap-[20px]'>
                     <div className='w-[300px] flex h-[400px] bg-gray-200 justify-center items-end'>
 
-                        <Image src={About1} className='object-contain' />
+                        <Image alt="loading" src={About1} className='object-contain' />
                     </div>
 
                     <h1 className='text-xl font-bold tracking-wider'>Tom cruise</h1>
@@ -124,7 +124,7 @@ export default function page() {
                 <div className='w-[300px] h-max flex flex-col gap-[20px]'>
                     <div className='w-[300px] flex h-[400px] bg-gray-200 justify-center items-end'>
 
-                        <Image src={About2} className='object-contain' />
+                        <Image alt="loading" src={About2} className='object-contain' />
                     </div>
 
                     <h1 className='text-xl font-bold tracking-wider'>Will Smith</h1>
@@ -149,7 +149,7 @@ export default function page() {
                 <div className='w-[300px] h-max flex flex-col gap-[20px]'>
                     <div className='w-[300px] flex h-[400px] bg-gray-200 justify-center items-end'>
 
-                        <Image src={About3} className='object-contain' />
+                        <Image alt="loading" src={About3} className='object-contain' />
                     </div>
 
                     <h1 className='text-xl font-bold tracking-wider'>Emma watson</h1>

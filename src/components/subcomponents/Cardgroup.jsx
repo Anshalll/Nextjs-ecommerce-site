@@ -13,7 +13,7 @@ export default function Cardgroup({ data }) {
                         <div className='w-full h-[250px] bg-gray-200 flex items-center justify-center'>
 
                             <div className='w-[190px]  h-[180px] '>
-                                <img src={value.main_img} alt="" className='w-full mix-blend-multiply h-full object-contain' />
+                                <img src={value.main_img} alt="loading" className='w-full mix-blend-multiply h-full object-contain' />
                             </div>
 
                         </div>

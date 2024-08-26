@@ -51,9 +51,9 @@ export default function Footer() {
         <div className='flex flex-col justify-start gap-[20px] h-full'>
           
           <p className='font-semibold text-xl'>Follow us</p>
-          <p className='flex gap-[10px] items-center'><img width="20" height="20" src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>Instagram</p>
-          <p  className='flex gap-[10px] items-center'><img width="20" height="20" src="https://img.icons8.com/ios/50/FFFFFF/facebook--v1.png" alt="facebook--v1"/>Facebook</p>
-          <p  className='flex gap-[10px] items-center'><img width="20" height="20" src="https://img.icons8.com/ios/50/FFFFFF/twitter--v1.png" alt="twitter--v1"/>Twitter</p>
+          <p className='flex gap-[10px] items-center'><img width="20" height="20"  src="https://img.icons8.com/ios/50/FFFFFF/instagram-new--v1.png" alt="instagram-new--v1"/>Instagram</p>
+          <p  className='flex gap-[10px] items-center'><img width="20" height="20"  src="https://img.icons8.com/ios/50/FFFFFF/facebook--v1.png" alt="facebook--v1"/>Facebook</p>
+          <p  className='flex gap-[10px] items-center'><img width="20" height="20"  src="https://img.icons8.com/ios/50/FFFFFF/twitter--v1.png" alt="twitter--v1"/>Twitter</p>
       
        
          

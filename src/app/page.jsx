@@ -50,7 +50,7 @@ export default function Home() {
       <hr className='w-full h-[10px]'/>
 
       <div className='w-[1170px] h-[500px]'>
-        <Image src={Homemainpng} className='w-full h-full object-contain' />
+        <Image priority alt='loading' src={Homemainpng} className='w-full h-full object-contain' />
       </div>
       <hr className='w-full h-[10px]'/>
       <div className='w-[1500px]  flex flex-col gap-[40px] p-[20px] h-[600px] items-center justify-between'>
@@ -85,8 +85,8 @@ export default function Home() {
       <div className='w-full flex items-center justify-center p-[40px]'>
 
         <div className='w-[1170px] flex gap-[20px] items-center'>
-          <Image src={Frame1} className='w-[90%] h-full object-contain ' />
-          <Image src={Frame2} className='w-full h-full object-contain' />
+          <Image alt='loading' src={Frame1} className='w-[90%] h-full object-contain ' />
+          <Image alt='loading' src={Frame2} className='w-full h-full object-contain' />
 
         </div>
       </div>

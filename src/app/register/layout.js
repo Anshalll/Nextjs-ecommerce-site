@@ -10,7 +10,7 @@ export default function RootLayout({  children }) {
       <div className='flex items-center'>
 
         <div className='w-[400px] h-[400px]'>
-          <Image src={SignInpng} className='object-contain' />
+          <Image alt="loading" src={SignInpng} className='object-contain' />
         </div>
       </div>
 
