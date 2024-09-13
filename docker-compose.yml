@@ -1,23 +1,21 @@
 version: '3'
 services:
   app:
-    build:
-      context: .
-      dockerfile: dockerFile.yml
+    image: anshalcodes918/ecommerce-app:latest  
     ports:
-      - "4000:3000"
+      - "4000:3000"  
     depends_on:
-      - mongodb
+      - mongodb  
     environment:
       - MONGO_URI=mongodb://mongodb:27018
       - DBNAME=ecommerce
 
   mongodb:
-    image: mongo:latest
+    image: mongo:latest 
     ports:
-      - "27018:27017"
+      - "27018:27017"  
     volumes:
-      - mongodb-data:/data/db
+      - mongodb-data:/data/db  
 
 volumes:
-  mongodb-data:
+  mongodb-data: 
